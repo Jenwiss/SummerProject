@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maneroSub", "maneroSub\maneroSub.csproj", "{8ED339BF-B57E-4295-81F0-4BA4905E6CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTest", "XUnitTest\XTest.csproj", "{FE9DB3E4-F13D-41B2-A6BE-E30E99F6898F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8ED339BF-B57E-4295-81F0-4BA4905E6CD3} = {8ED339BF-B57E-4295-81F0-4BA4905E6CD3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED339BF-B57E-4295-81F0-4BA4905E6CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED339BF-B57E-4295-81F0-4BA4905E6CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED339BF-B57E-4295-81F0-4BA4905E6CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED339BF-B57E-4295-81F0-4BA4905E6CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9DB3E4-F13D-41B2-A6BE-E30E99F6898F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9DB3E4-F13D-41B2-A6BE-E30E99F6898F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9DB3E4-F13D-41B2-A6BE-E30E99F6898F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9DB3E4-F13D-41B2-A6BE-E30E99F6898F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F461BEA-3B17-4A39-86AE-2715F6C43FCF}
+	EndGlobalSection
+EndGlobal
